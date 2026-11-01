@@ -1,0 +1,5 @@
+scan 429 ms total=1513
+scan 604 ms total=1513
+scan 519 ms total=1513
+scan 577 ms total=1513
+scan 668 ms total=1513

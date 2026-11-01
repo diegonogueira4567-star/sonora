@@ -1,0 +1,58 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 160005 Realtime: 160005
+
+** MEMINFO in pid 3650 [com.sonora.player] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    24298    24252       40       42    25236    56064    28777    23520
+  Dalvik Heap     9660     9616       12       89    11500    12920     6460     6460
+ Dalvik Other     3690     1228       12        1     6628                           
+        Stack      784      784        0        0      788                           
+       Ashmem       15        0        0        0      596                           
+    Other dev       21        0       16        0      272                           
+     .so mmap     4353      168      852        6    38016                           
+    .jar mmap     1862        0      308        0    39852                           
+    .apk mmap      234        0       64        0     1620                           
+    .ttf mmap      466        0      248        0     1404                           
+    .dex mmap     4359        4     4344        0     5168                           
+    .oat mmap      454        0       16        0    12248                           
+    .art mmap     2917     2456       92      132    23400                           
+   Other mmap     1442        4      164        0     4000                           
+      Unknown      568      560        4        0     1016                           
+        TOTAL    55393    39072     6172      270   171744    68984    35237    29980
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    12164                          34900
+         Native Heap:    24252                          25236
+                Code:     6024                         103228
+               Stack:      784                            788
+            Graphics:        0                              0
+       Private Other:     2020
+              System:    10149
+             Unknown:                                    7592
+ 
+           TOTAL PSS:    55393            TOTAL RSS:   171744       TOTAL SWAP PSS:      270
+ 
+ Objects
+               Views:       10         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       23        AssetManagers:        0
+       Local Binders:       38        Proxy Binders:       70
+       Parcel memory:       12         Parcel count:       50
+    Death Recipients:        2             WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      501
+  PAGECACHE_OVERFLOW:      421          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b) cache hits cache misses cache size  Dbname
+PER CONNECTION STATS
+         4      608             88    11   114    11  /data/user/0/com.sonora.player/databases/sonora.db
+         4       16                    0     0     0    (attached) temp
+POOL STATS
+     cache hits  cache misses    cache size  Dbname
+             19           202           221  /data/user/0/com.sonora.player/databases/sonora.db

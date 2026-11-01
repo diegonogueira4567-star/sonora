@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+*.jks
+*.keystore
+.idea/
+*.iml
+captures/
+# APKs are published as GitHub Release assets, not committed.
+*.apk
+*.aab
+*.p12
+*.pem
+.kotlin/

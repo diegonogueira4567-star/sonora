@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sonora</string>
+    <string name="widget_name">Sonora – reprodutor</string>
+    <string name="widget_description">Controles de reprodução na tela inicial</string>
+    <string name="widget_nothing_playing">Nada tocando</string>
+    <string name="widget_open_app">Toque para abrir o Sonora</string>
+    <string name="cd_play_pause">Reproduzir ou pausar</string>
+    <string name="cd_next">Próxima faixa</string>
+    <string name="cd_previous">Faixa anterior</string>
+    <string name="cd_artwork">Capa do álbum</string>
+    <string name="notification_channel_name">Reprodução</string>
+</resources>
