@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35E8B8"/>
+      <stop offset="1" stop-color="#14A884"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="64" rx="32" fill="url(#b)"/>
+  <g transform="translate(30,16)" fill="#0E0F12">
+    <path d="M14 0h4v18l6-6 3 3-11 11L5 15l3-3 6 6z"/>
+    <rect x="2" y="28" width="28" height="4" rx="2"/>
+  </g>
+  <text x="74" y="30" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#0E0F12">Baixar para Android</text>
+  <text x="74" y="49" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#0E0F12" fill-opacity="0.75">Sonora.apk · grátis · sem anúncios</text>
+</svg>
